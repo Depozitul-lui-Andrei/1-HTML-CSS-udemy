@@ -46,6 +46,7 @@ article header p {
 }
 */
 
+/* id selector */
 #author {
   font-style: italic;
   font-size: 18px;
@@ -53,4 +54,18 @@ article header p {
 
 #copyright {
   font-size: 16px;
+}
+
+/* class selector */
+.related-author {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+/* ul {
+  list-style: none;
+} */
+
+.related {
+  list-style: none;
 }
