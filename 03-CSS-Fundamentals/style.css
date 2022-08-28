@@ -110,7 +110,7 @@ article p:first-child {
 }
 
 /* Styling links */
-
+/* L.V.H.A. - order for links to be styled */
 a:link {
   color: #1098ad;
   text-decoration: none;
@@ -132,3 +132,21 @@ a:active {
   font-style: italic;
 }
 /* L.V.H.A. - order for links to be styled */
+
+/* resolving conflicts */
+
+#copyright {
+  color: red;
+}
+
+.copyright {
+  color: blue;
+}
+
+.text {
+  color: yellow;
+}
+
+footer p {
+  color: green;
+}
