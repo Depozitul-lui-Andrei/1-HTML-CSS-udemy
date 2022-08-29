@@ -19,6 +19,7 @@ body {
   padding-right: 40px; */
   padding: 20px 40px;
   margin-bottom: 60px;
+  height: 80px;
 }
 
 nav {
@@ -171,6 +172,11 @@ a:active {
   font-style: italic;
 }
 /* L.V.H.A. - order for links to be styled */
+
+.post-img {
+  width: 100%;
+  height: auto;
+}
 
 /* resolving conflicts */
 
