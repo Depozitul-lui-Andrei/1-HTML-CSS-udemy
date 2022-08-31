@@ -6,6 +6,7 @@
 }
 
 /* PAGE SECTIONS */
+
 body {
   color: #444;
   font-family: sans-serif;
@@ -190,12 +191,19 @@ a:active {
   height: auto;
 }
 
-/* nav a:link {
-  background-color: orange;
+nav a:link {
+  /* background-color: orange;
   margin: 20px;
-  padding: 20px;
+  padding: 20px; */
+
   display: inline-block;
-} */
+  margin-right: 30px;
+  margin-top: 10px;
+}
+
+nav a:link:last-child {
+  margin-right: 0;
+}
 
 /* resolving conflicts */
 
