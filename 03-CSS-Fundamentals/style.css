@@ -5,6 +5,7 @@
   /* border-top: 10px solid #1098ad; */
 }
 
+/* PAGE SECTIONS */
 body {
   color: #444;
   font-family: sans-serif;
@@ -27,7 +28,7 @@ body {
   padding-right: 40px; */
   padding: 20px 40px;
   margin-bottom: 60px;
-  height: 80px;
+  /* height: 80px; */
 }
 
 nav {
@@ -51,6 +52,8 @@ aside {
   padding: 50px 0;
   width: 500px;
 }
+
+/* SMALLER ELEMENTS */
 
 h1,
 h2,
@@ -96,6 +99,7 @@ ol {
 li {
   font-size: 20px;
   margin-bottom: 10px;
+  /* display: inline; */
 }
 li:last-child {
   margin-bottom: 0;
@@ -185,6 +189,13 @@ a:active {
   width: 100%;
   height: auto;
 }
+
+/* nav a:link {
+  background-color: orange;
+  margin: 20px;
+  padding: 20px;
+  display: inline-block;
+} */
 
 /* resolving conflicts */
 
