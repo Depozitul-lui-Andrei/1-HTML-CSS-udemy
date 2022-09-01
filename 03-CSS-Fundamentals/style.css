@@ -218,10 +218,19 @@ button {
   right: 50px;
 }
 
+h1::first-letter {
+  font-style: normal;
+  margin-right: 5px;
+}
+
+/* h3 + p::first-line {
+  color: ;
+} */
+
 /* resolving conflicts */
 
 /* #copyright {
-  color: red;
+  color: ;
 }
 
 .copyright {
