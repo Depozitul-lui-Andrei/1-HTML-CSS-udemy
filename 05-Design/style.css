@@ -15,7 +15,6 @@ GRAY #343a40
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-size: 18px;
 }
 
 /* ------------------------ */
@@ -204,6 +203,10 @@ h3 {
   justify-content: space-between;
   font-size: 20px;
   align-items: center;
+}
+
+li {
+  font-size: 16px;
 }
 
 footer {
